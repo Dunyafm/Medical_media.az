@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+header {
+    .main {
+        .nav-bar{
+            display: flex;
+            img{
+                margin-inline-start: 50px;
+
+            }
+            ul{
+                display: inline-block;
+            }
+            li{
+                list-style: none;
+                display: inline-block;
+                margin-left: 50px;
+                margin-top: 20px;
+
+            }
+        }   a{
+            text-decoration: none;
+            color: $white-color;
+            font-size: 30px;
+        }
+        .search {
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            border-radius: 30px;
+            position: relative;
+        }
+        .search::after {
+            font-family: sans-serif;
+            position: absolute;
+            top: 0px;
+            left: -5px;
+
+        }
+    }    background-color:$blue;
+         hr{
+             height: 2px;
+             color: $white-color;
+           }
+         nav{
+
+             li{
+                 list-style: none;
+                 display: inline-block;
+                 height: 50px;
+             }
+             a{
+                 margin-inline-start: 40px;
+                 text-decoration: none;
+                 color: $white-color;
+                 font-size: 30px;
+            }
+       }
+}   
+
+main {
+
+    .icons{
+        list-style: none;
+        background: $blue;
+        position: fixed;
+        color: $white-color;
+        top: 200px;
+        right: 10px;
+        border-radius: 20px;
+        width: 45px;
+        height: 140px;
+        padding: 8px 0;
+        text-align: center;
+    }
+    #news_one {
+        .suretli{
+            p{
+                font-size: 20px;
+            }
+        }
+        .covid_news{
+            height: 100px;
+            text-align: center;
+            .covid {
+                color: $white-color;
+                text-decoration: none;
+                font-size: 30px;
+                
+            }
+        }
+        .sputnik_v{
+            a{
+                color: $white-color;
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+
+        .böyrək{
+            a{
+                color: $white-color;
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+        
+    }
+    #news_second{
+
+        .image{
+            position: relative;
+            img{
+                width: 100%; position: absolute;
+                border-radius: 20px;
+                height: 500px;
+            }
+        }  
+        button {
+            position: absolute;
+            right: 0px;
+            bottom: -35px;
+            border-radius: 20px;
+            background-color: #007bff;
+            color: $white-color;
+            font-size: 20px;
+            height: 30px;width: 100px;
+
+        }
+        p{
+            position: absolute;
+            color: $white-color;
+            left: 0px;
+            bottom: -90px;
+            font-size: 25px;
+        }
+    }
+     .image_third{
+         position: relative;
+         width: 100%;
+         height: 150px;
+         img{
+             width: 100%;
+             position: absolute;
+             border-radius: 20px;
+             height: 170px;
+            }
+          button{
+               position: absolute;
+               right: 0px;
+               bottom: -10px;
+               border-radius: 20px;
+               background-color: #007bff;
+               color: $white-color;
+               font-size: 20px;
+               height: 35px;
+               width: 70px;
+           }
+          p{
+             position: absolute;
+             color: $white-color;
+             left: 0px;
+             top: 0px;
+             font-size: 15px; 
+
+            }
+        }
+        .image-second{
+            position: relative; 
+            width: 100%; 
+            height: 150px;
+
+            img{
+                width: 100%; 
+                position:absolute;
+                border-radius: 20px;
+                height: 170px;
+            }
+
+           button{
+            position: absolute;
+            right: 0px;
+            bottom: -10px;
+            border-radius: 20px;
+            background-color: #007bff;
+        }
+        p{
+            position: absolute;
+            color: white;
+            left: 0px;
+            top: 0px;
+            font-size: 15px;
+        }
+       
+    
+    }   
+    .scroll{
+        border: 1px solid #007bff;
+        border-radius: 10px;
+        ul{
+            overflow: hidden;
+            overflow: scroll;
+            height: 350px;
+            h1{
+                color: #007bff;
+                display: inline-block;
+                margin-top: 50px;
+            }
+        }   a{
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .card{
+            width: 18rem;
+            height: 350px;
+            img{
+                height: 220px;
+            }
+        }
+    }
+}   #new_four{
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .nws{
+        width: 120px;
+        height: 30px;
+        background-color: $white-color;
+        border-radius: 20px;
+        color: #007bff;
+        border: 1px solid $blue;
+    }
+    .nws::hover{
+        background-color: #007bff;
+        color: $white-color;
+    }
+    .tv{
+        width: 120px;
+        height: 30px;
+        background-color: $blue;
+        border-radius: 20px;
+        border: 1px solid $blue;
+        color: $white-color;
+    }
+    .boş{
+        margin-top: 5px;
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid $blue;
+        height: 350px;
+    }
+    
+    #links{
+        .link{
+            background-color: $blue;
+            width: 100%;position: relative; 
+            height: 60px; 
+            border-radius: 20px;
+            a{
+                color: $white-color; 
+                text-decoration: none;
+                position: absolute; 
+                top: 15px;
+                text-align: center; 
+                left: 20px;
+            }
+        }
+    }
+}
+ footer{
+    #footer{
+        background-color: #007bff;
+         p{
+             color: $white-color;
+             margin-top: 60px;
+             font-size: 20px;
+           }
+         li{
+             list-style: none;
+             margin-top: 20px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                color: $white-color;
+        }  }
+    }
+}
+.foot{
+    width: 100%;
+    height: 200px;
+    h2{
+        color: $white-color;
+    }
+    input{
+        color: $white-color;
+        text-align: center;
+        border-radius: 5px; 
+        background-color: $blue;
+        border: 1px solid grey;
+    }
+    button{
+        color:$blue;
+        height: 30px;
+        width: 40px; 
+        background-color: $white-color; 
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+}
+
